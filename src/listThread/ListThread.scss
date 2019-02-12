@@ -1,0 +1,55 @@
+.list-thread {
+    display: flex;
+    padding-bottom: 14px;
+    border: 1px solid;
+    font-family: 'Muli', sans-serif;
+    .clap
+    {
+        // display: flex;
+        // justify-content: center; 
+        background-color: #f7f7f7;
+    }
+    .text-block
+    {
+        .footer
+        {
+            margin-top: 13px;
+            display: flex;
+            // justify-content: space-around;
+            .comment
+            {
+                display: flex;
+                justify-content: flex-start;
+            }
+            .tickets
+            {
+                display: flex;
+                justify-content: flex-end;
+            }
+            
+        }
+        .title {
+            font-weight: bold;
+            font-size: 24px;
+            display: flex;
+            margin-bottom: 5px;
+            text-align: left;
+            .asked
+            {
+                margin-top: 3px;
+                font-size: 12px !important;
+                font-weight: normal !important;
+
+            }
+        }
+        .paragraph {
+            text-align: left;
+        }
+    }
+    
+}
+
+.list-thread:hover
+{
+    border: 1px solid #2a4bd8;
+}
